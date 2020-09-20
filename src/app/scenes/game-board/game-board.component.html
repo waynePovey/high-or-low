@@ -1,0 +1,6 @@
+<div>
+    <div class="loading-container" *ngIf="loading" [ngClass]="initialised ? 'visible' : 'hidden'">
+        <app-loading-spinner></app-loading-spinner>
+    </div>
+    <canvas #rCanvas id="rCanvas"></canvas>
+</div>

@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GameBoardComponent } from '@scenes/game-board/game-board.component';
+import { HomeComponent } from '@components/home/home.component';
+import { LoadingSpinnerComponent } from './components/loading-spinner/loading-spinner.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    GameBoardComponent,
+    LoadingSpinnerComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,18 @@
+{"producer":{"name":"Blender","version":"2.81 (sub 16)","exporter_version":"6.4.3","file":"floor.babylon"},
+"autoClear":true,"clearColor":[0.0509,0.0509,0.0509],"gravity":[0,-9.81,0],
+"materials":[{"name":"Material.001","id":"Material.001","customType":"BABYLON.PBRMaterial","backFaceCulling":true,"checkReadyOnlyOnce":false,"maxSimultaneousLights":4,"environmentIntensity":1,"albedo":[0.0072,0.0072,0.0072],"reflectivity":[0,0,0],"roughness":0.7,"alpha":1,"transparencyMode":0,"alphaCutOff":0.4,"metallic":0}],
+"multiMaterials":[],
+"skeletons":[],
+"meshes":[{"name":"floor","id":"floor","materialId":"Material.001","billboardMode":0,"position":[0,0,0],"rotation":[0,0,0],"scaling":[2047.6606,2047.6606,2047.6606],"isVisible":true,"freezeWorldMatrix":false,"isEnabled":true,"checkCollisions":false,"receiveShadows":false,"pickable":true,"tags":""
+,"positions":[1,0,-1,-1,0,1,-1,0,-1,1,0,1]
+,"normals":[0,1,0,0,1,0,0,1,0,0,1,0]
+,"uvs":[1,0,0,1,0,0,1,1]
+,"indices":[0,1,2,0,3,1]
+,"subMeshes":[{"materialIndex":0,"verticesStart":0,"verticesCount":4,"indexStart":0,"indexCount":6}]
+,"instances":[]}
+],
+"morphTargetManagers":[],
+"cameras":[],
+"lights":[],
+"shadowGenerators":[]
+}

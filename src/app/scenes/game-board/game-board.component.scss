@@ -1,0 +1,26 @@
+div {
+    height: 100%;
+    background: transparent;
+
+    .loading-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #171810;
+
+        &.hidden {
+            opacity: 0;
+            transition: opacity 0.5s ease-in;
+        }
+
+        &.visible {
+            opacity: 1;
+            transition: opacity 0.5s ease-in;
+        }
+    }
+
+    canvas {
+        width: 100%;
+        height: 100%;
+    }
+}
